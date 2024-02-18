@@ -5,24 +5,28 @@
 Tell us about your project here
 
 ## Team Members
-[Devadath PR](github.com/devalopr)   
-[Navaneeth Nalesh CT](github.com/NavaneethNalesh)   
+[Devadath PR](https://github.com/devalopr)   
+[Navaneeth Nalesh CT](https://github.com/NavaneethNalesh)   
 
 ## Link to Project
-([live_link](https://agripod.vercel.app/))
+[live_link](https://agripod.vercel.app/)
 
 ## How it Works ?
-Explaining the working of project  
-Embed video of project demo
+Agripod device has a soil moisture sensor, NPk&PH sensor and a camera connected to the raspberry pi. The raspberry pi records the data and uploads the relevant info to firebase. The agripod can also be attached to a drone for aerial survey of the field. Custom trained YOLOv8 models detect pests in te field. Various IOT connected devices like food quality sensing device and the smart irrigation system reads the data from this database and optimises irrigation accordingly. 
+
+We also built an app to viduslise the data, display agriculture related news for the farmer, display the data of pests detected and suggest appropriate actions, display government schemes for farmer's aid to bridge the communication gap between the govt and farmers, a marketplace for farmers to sell directly to the local customers and finally an ML model to determine the right plant to cultivate food in the region form the sensor and weather data
 
 ## Technologies used
-List out tech stacks you have used
+IOT, ML, YOLO AI, Firebase, React, Tailwind, drone
 
 ## How to configure
-Instructions for setting up project
+
+pip install ulrtalytics
 
 ## How to Run
-Instructions for running
+
+clonethe repo
+
 
 ## Other Links
-Provide any other links ( for eg. Wireframe , UI, Abstract, Presentation )
+
