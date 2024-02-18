@@ -10,6 +10,7 @@ Tell us about your project here
 
 ## Link to Project
 [live_link](https://agripod.vercel.app/)
+(some features dont work in the deployment, clone the repo and run for full features access)
 
 ## How it Works ?
 Agripod device has a soil moisture sensor, NPk&PH sensor and a camera connected to the raspberry pi. The raspberry pi records the data and uploads the relevant info to firebase. The agripod can also be attached to a drone for aerial survey of the field. Custom trained YOLOv8 models detect pests in te field. Various IOT connected devices like food quality sensing device and the smart irrigation system reads the data from this database and optimises irrigation accordingly. 
