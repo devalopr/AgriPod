@@ -1,0 +1,9 @@
+# DO NOT MAKE IT PUBLIC UNLESS THEY ASK TO (CREDS IN CODE, CAN MAKE IT BETTER )
+
+```
+npm i
+npm run dev
+```
+
+
+

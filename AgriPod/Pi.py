@@ -87,6 +87,7 @@ def read_3bit_to_percentage(gpio_pins):
 def calculate_irrigation():
     Pump_sec = (Required_irri - m_per - Rainfall)*42
     
+    
 def calculate_fertilizer_requirement():
     
     # Calculate the amount of fertilizer required for each nutrient
