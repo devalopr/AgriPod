@@ -33,7 +33,7 @@ clonethe repo, go to the App folder and run
 npm i
 npm run dev
 ```
-open another terminal inside the Models folder
+open another terminal 
 ```
 python ML.py
 ```
