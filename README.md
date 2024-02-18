@@ -28,7 +28,7 @@ pip install ulrtalytics
 
 ## How to Run
 
-clonethe repo
+clonethe repo, go to the App folder and run
 ```
 npm i
 npm run dev
