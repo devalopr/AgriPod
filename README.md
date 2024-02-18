@@ -22,11 +22,21 @@ IOT, ML, YOLO AI, Firebase, React, Tailwind, drone
 ## How to configure
 
 pip install ulrtalytics
+```
+pip install ulrtalytics
+```
 
 ## How to Run
 
 clonethe repo
-
+```
+npm i
+npm run dev
+```
+open another terminal inside the Models folder
+```
+python ML.py
+```
 
 ## Other Links
 
