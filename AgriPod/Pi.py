@@ -29,6 +29,7 @@ m_per = 0
 n_per = 0
 p_per = 0
 k_per = 0
+PH = 0
 desired_n, desired_p, desired_k = 100, 50, 100  
 npk_percentage = 20 
 Pump_sec = 0
@@ -39,7 +40,7 @@ Rainfall = 0
 api_key = "27f8cc07ff23a0f6bfaa063c491e7eae"
 lat = "8.9142"
 lon = "76.6320"
-data = {"M": m_per, "N": n_per,"P": p_per, "K": k_per, "FR": Fert_amt, "PS":Pump_sec}
+data = {"M": m_per, "N": n_per,"P": p_per, "K": k_per,"PH": PH "FR": Fert_amt, "PS":Pump_sec}
 
 button_pin = 2  
 GPIO.setmode(GPIO.BCM)
@@ -55,9 +56,9 @@ def button_callback(channel):
     image_path = capture_image()
     print(f"Image captured: {image_path}")
     upload_to_firebase(image_path)
-    print("Image uploaded")
     fetch_weather_forecast(api_key, lat, lon)
     Fert_amt = calculate_fertilizer_requirement()
+    data = {"M": m_per, "N": n_per,"P": p_per, "K": k_per, "FR": Fert_amt, "PS":Pump_sec}
     db.push(data)
     print("Data sent to Firebase")
 
